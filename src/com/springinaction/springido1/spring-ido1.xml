@@ -19,6 +19,7 @@
 		<constructor-arg value="15" />
 		<constructor-arg ref="realPoem" />
 	</bean>
+	<aop:aspectj-autoproxy />
 	<!--
 	<aop:config>
 		<aop:aspect id="test" ref="audience">
@@ -30,10 +31,12 @@
 		</aop:aspect>
 	</aop:config>
 	-->
+	<!--
  	<aop:config>
 		<aop:aspect id="test" ref="audience">
 			<aop:pointcut id="performance" expression="execution(* com.springinaction.springido1.Performer.perform())" />
 			<aop:around pointcut-ref="performance" method="watchPerformance" />
 		</aop:aspect>
 	</aop:config>
+	-->
  </beans>  
