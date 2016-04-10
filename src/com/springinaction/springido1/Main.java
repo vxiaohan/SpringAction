@@ -8,5 +8,6 @@ public class Main {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/springinaction/springido1/spring-ido1.xml");
 		Performer performer = (Performer) ctx.getBean("instrumentalist");
 		performer.perform();
+		
 	}
 }
