@@ -2,6 +2,7 @@
     <wb-module deploy-name="SpringAction">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
         <property name="context-root" value="SpringAction"/>
         <property name="java-output-path" value="/SpringAction/build/classes"/>
     </wb-module>
