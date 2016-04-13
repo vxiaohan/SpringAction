@@ -20,7 +20,7 @@
 		<constructor-arg ref="realPoem" />
 	</bean>
 	<aop:aspectj-autoproxy />
-	
+
 	
 	<!--
 	<aop:config>
